@@ -32,7 +32,7 @@
       "creation": "2006-07-01",
       "publication": "2006-07-01",
       "revision": "2025-07-04",
-      "metadata": "2025-10-30"
+      "metadata": "2025-11-12"
     },
     "responsibleParties": [
       {
@@ -53,11 +53,15 @@
         "role": "publisher"
       }
     ],
+    "organizationLogoUrl": "https://register.geonorge.no/data/organizations/971040238_Kartverket_liten.png",
     "supplementalInformation": "Trenger du hjelp til å laste ned og ta i bruk Kartverkets data og tjenester? På kartverket.no finner du tips og veiledning."
   },
   "scope": {
     "level": "dataset",
     "extent": {
+      "spatial": {
+        "spatialScope": "National"
+      },
       "temporal": {
         "interval": [
           [
@@ -157,6 +161,9 @@
     "maintenanceNote": "Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Presentasjon av statistikk og analyser. Produksjon av kart og avledede produkter. Saksbehandling på lokalt og regionalt plan etter plan- og bygningsloven.",
     "status": "Kontinuerlig oppdatert"
   },
+  "portrayal": {
+    "legendDescriptionUrl": "https://register.geonorge.no/tegneregler/administrative-enheter-norge"
+  },
   "delivery": {
     "distributions": [
       {
@@ -195,7 +202,7 @@
   "metadata": {
     "standard": "ISO19115",
     "standardVersion": "2003",
-    "metadataDate": "2025-10-30",
+    "metadataDate": "2025-11-12",
     "language": "nor",
     "pointOfContact": {
       "organization": "Kartverket",

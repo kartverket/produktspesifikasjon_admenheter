@@ -1,6 +1,8 @@
 ---
 title: "Administrative enheter kommuner"
 updated: "2025-01-01"
+organization: "Kartverket"
+logo: "https://register.geonorge.no/data/organizations/971040238_Kartverket_liten.png"
 ---
 
 # Produktspesifikasjon: Administrative enheter kommuner
@@ -79,7 +81,9 @@ Framstille den offisielle kommuneinndelingen.
 ## Spesifikasjonsomfang
 
 - **nivå**: dataset
-- **utstrekning**: - **tidsmessig**: - **intervall**: - 2006-07-01, 2025-07-04
+- **utstrekning**:
+  - **romlig**: - **romlig omfang**: National
+  - **tidsmessig**: - **intervall**: - 2006-07-01, 2025-07-04
 - **juridiske begrensninger**:
   - **useLimitation**: Ingen begrensninger på bruk er oppgitt. Se forøvrig lisens.
   - **tilgangsbegrensninger**: Åpne data
@@ -563,8 +567,7 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 
 ## Presentasjon
 
-
-
+- **legendDescriptionUrl**: https://register.geonorge.no/tegneregler/administrative-enheter-norge
 
 ## Leveranse
 
@@ -590,7 +593,7 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 
 - **standard**: ISO19115
 - **standardversjon**: 2003
-- **metadatadato**: 2025-10-30
+- **metadatadato**: 2025-11-12
 - **språk**: nor
 - **kontaktpunkt**:
   - **organisasjon**: Kartverket
