@@ -11,7 +11,8 @@ logo: "https://register.geonorge.no/data/organizations/971040238_Kartverket_lite
 
 
 ### Innledning
-
+Datasettet over Norges fylker og kommuner er utarbeidet for å vise de offisielle administrative
+grensene i landet.
 
 ### Historikk
 
@@ -29,7 +30,16 @@ logo: "https://register.geonorge.no/data/organizations/971040238_Kartverket_lite
 
 
 ### Forkortelser
-
+DEK: Digitalt EiendomsKart
+EPSG: European Petroleum Survey Group
+GML: Geographic Markup Language
+ISO: International Standardization Organization
+OGP: The international Association of Oil and Gas Producers
+SOSI: Samordnet Opplegg for Stedfestet Informasjon
+UML: Unified Modeling Language
+XML: Extensible Markup Language
+XSD: XML Schema Definition
+ØK: Økonomisk kartverk
 
 ## Generelt om spesifikasjonen
 
