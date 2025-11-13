@@ -6,101 +6,389 @@ Geometri:
 - itemType: feature
 - type: geometry-any
 - crs:
-  - http://www.opengis.net/def/crs/OGC/1.3/CRS84
-  - http://www.opengis.net/def/crs/EPSG/0/3857
+  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84">http://www.opengis.net/def/crs/OGC/1.3/CRS84</a>
+  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857">http://www.opengis.net/def/crs/EPSG/0/3857</a>
 
 Egenskaper
 
-| **Navn:** | **geometry** |
-| --- | --- |
-| Definisjon: | Elementtype: feature |
-| Type: | geometry-any |
-| OGC-rolle: | primary-geometry |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>geometry</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>Elementtype: feature</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>geometry-any</td>
+    </tr>
+    <tr>
+      <th scope="row">OGC-rolle:</th>
+      <td>primary-geometry</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **objid** |
-| --- | --- |
-| Definisjon: | objid |
-| Multiplisitet: | 0..1 |
-| Type: | integer |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>objid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>objid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>integer</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **objtype** |
-| --- | --- |
-| Definisjon: | objtype |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>objtype</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>objtype</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **lokalid** |
-| --- | --- |
-| Definisjon: | lokalid |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>lokalid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>lokalid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **navnerom** |
-| --- | --- |
-| Definisjon: | navnerom |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>navnerom</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>navnerom</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **versjonid** |
-| --- | --- |
-| Definisjon: | versjonid |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>versjonid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>versjonid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **oppdateringsdato** |
-| --- | --- |
-| Definisjon: | oppdateringsdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>oppdateringsdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>oppdateringsdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **gyldigfra** |
-| --- | --- |
-| Definisjon: | gyldigfra |
-| Multiplisitet: | 0..1 |
-| Type: | date (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>gyldigfra</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>gyldigfra</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **gyldigtil** |
-| --- | --- |
-| Definisjon: | gyldigtil |
-| Multiplisitet: | 0..1 |
-| Type: | date (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>gyldigtil</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>gyldigtil</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **datafangstdato** |
-| --- | --- |
-| Definisjon: | datafangstdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>datafangstdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>datafangstdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **datauttaksdato** |
-| --- | --- |
-| Definisjon: | datauttaksdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>datauttaksdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>datauttaksdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **opphav** |
-| --- | --- |
-| Definisjon: | opphav |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>opphav</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>opphav</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **fylkesnummer** |
-| --- | --- |
-| Definisjon: | fylkesnummer |
-| Multiplisitet: | 0..1 |
-| Type: | string |
-| OGC-rolle: | id |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>fylkesnummer</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>fylkesnummer</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+    <tr>
+      <th scope="row">OGC-rolle:</th>
+      <td>id</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **fylkesnavn** |
-| --- | --- |
-| Definisjon: | fylkesnavn |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>fylkesnavn</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>fylkesnavn</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **samiskforvaltningsomrade** |
-| --- | --- |
-| Definisjon: | samiskforvaltningsomrade |
-| Multiplisitet: | 0..1 |
-| Type: | boolean |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>samiskforvaltningsomrade</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>samiskforvaltningsomrade</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>boolean</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Fylkesgrenser
 
@@ -110,101 +398,389 @@ Geometri:
 - itemType: feature
 - type: geometry-any
 - crs:
-  - http://www.opengis.net/def/crs/OGC/1.3/CRS84
-  - http://www.opengis.net/def/crs/EPSG/0/3857
+  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84">http://www.opengis.net/def/crs/OGC/1.3/CRS84</a>
+  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857">http://www.opengis.net/def/crs/EPSG/0/3857</a>
 
 Egenskaper
 
-| **Navn:** | **geometry** |
-| --- | --- |
-| Definisjon: | Elementtype: feature |
-| Type: | geometry-any |
-| OGC-rolle: | primary-geometry |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>geometry</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>Elementtype: feature</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>geometry-any</td>
+    </tr>
+    <tr>
+      <th scope="row">OGC-rolle:</th>
+      <td>primary-geometry</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **objid** |
-| --- | --- |
-| Definisjon: | objid |
-| Multiplisitet: | 0..1 |
-| Type: | integer |
-| OGC-rolle: | id |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>objid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>objid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>integer</td>
+    </tr>
+    <tr>
+      <th scope="row">OGC-rolle:</th>
+      <td>id</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **objtype** |
-| --- | --- |
-| Definisjon: | objtype |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>objtype</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>objtype</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **lokalid** |
-| --- | --- |
-| Definisjon: | lokalid |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>lokalid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>lokalid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **navnerom** |
-| --- | --- |
-| Definisjon: | navnerom |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>navnerom</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>navnerom</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **versjonid** |
-| --- | --- |
-| Definisjon: | versjonid |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>versjonid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>versjonid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **oppdateringsdato** |
-| --- | --- |
-| Definisjon: | oppdateringsdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>oppdateringsdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>oppdateringsdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **gyldigfra** |
-| --- | --- |
-| Definisjon: | gyldigfra |
-| Multiplisitet: | 0..1 |
-| Type: | date (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>gyldigfra</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>gyldigfra</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **gyldigtil** |
-| --- | --- |
-| Definisjon: | gyldigtil |
-| Multiplisitet: | 0..1 |
-| Type: | date (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>gyldigtil</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>gyldigtil</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **datafangstdato** |
-| --- | --- |
-| Definisjon: | datafangstdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>datafangstdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>datafangstdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **malemetode** |
-| --- | --- |
-| Definisjon: | malemetode |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>malemetode</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>malemetode</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **noyaktighet** |
-| --- | --- |
-| Definisjon: | noyaktighet |
-| Multiplisitet: | 0..1 |
-| Type: | integer |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>noyaktighet</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>noyaktighet</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>integer</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **datauttaksdato** |
-| --- | --- |
-| Definisjon: | datauttaksdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>datauttaksdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>datauttaksdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **opphav** |
-| --- | --- |
-| Definisjon: | opphav |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>opphav</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>opphav</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **avgrensningstype** |
-| --- | --- |
-| Definisjon: | avgrensningstype |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>avgrensningstype</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>avgrensningstype</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Kommuner
 
@@ -214,101 +790,389 @@ Geometri:
 - itemType: feature
 - type: geometry-any
 - crs:
-  - http://www.opengis.net/def/crs/OGC/1.3/CRS84
-  - http://www.opengis.net/def/crs/EPSG/0/3857
+  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84">http://www.opengis.net/def/crs/OGC/1.3/CRS84</a>
+  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857">http://www.opengis.net/def/crs/EPSG/0/3857</a>
 
 Egenskaper
 
-| **Navn:** | **geometry** |
-| --- | --- |
-| Definisjon: | Elementtype: feature |
-| Type: | geometry-any |
-| OGC-rolle: | primary-geometry |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>geometry</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>Elementtype: feature</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>geometry-any</td>
+    </tr>
+    <tr>
+      <th scope="row">OGC-rolle:</th>
+      <td>primary-geometry</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **objid** |
-| --- | --- |
-| Definisjon: | objid |
-| Multiplisitet: | 0..1 |
-| Type: | integer |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>objid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>objid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>integer</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **objtype** |
-| --- | --- |
-| Definisjon: | objtype |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>objtype</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>objtype</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **lokalid** |
-| --- | --- |
-| Definisjon: | lokalid |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>lokalid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>lokalid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **navnerom** |
-| --- | --- |
-| Definisjon: | navnerom |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>navnerom</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>navnerom</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **versjonid** |
-| --- | --- |
-| Definisjon: | versjonid |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>versjonid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>versjonid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **oppdateringsdato** |
-| --- | --- |
-| Definisjon: | oppdateringsdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>oppdateringsdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>oppdateringsdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **gyldigfra** |
-| --- | --- |
-| Definisjon: | gyldigfra |
-| Multiplisitet: | 0..1 |
-| Type: | date (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>gyldigfra</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>gyldigfra</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **gyldigtil** |
-| --- | --- |
-| Definisjon: | gyldigtil |
-| Multiplisitet: | 0..1 |
-| Type: | date (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>gyldigtil</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>gyldigtil</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **datafangstdato** |
-| --- | --- |
-| Definisjon: | datafangstdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>datafangstdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>datafangstdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **datauttaksdato** |
-| --- | --- |
-| Definisjon: | datauttaksdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>datauttaksdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>datauttaksdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **opphav** |
-| --- | --- |
-| Definisjon: | opphav |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>opphav</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>opphav</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **kommunenummer** |
-| --- | --- |
-| Definisjon: | kommunenummer |
-| Multiplisitet: | 0..1 |
-| Type: | string |
-| OGC-rolle: | id |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>kommunenummer</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>kommunenummer</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+    <tr>
+      <th scope="row">OGC-rolle:</th>
+      <td>id</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **kommunenavn** |
-| --- | --- |
-| Definisjon: | kommunenavn |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>kommunenavn</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>kommunenavn</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **samiskforvaltningsomrade** |
-| --- | --- |
-| Definisjon: | samiskforvaltningsomrade |
-| Multiplisitet: | 0..1 |
-| Type: | boolean |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>samiskforvaltningsomrade</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>samiskforvaltningsomrade</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>boolean</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Kommunegrenser
 
@@ -318,98 +1182,386 @@ Geometri:
 - itemType: feature
 - type: geometry-any
 - crs:
-  - http://www.opengis.net/def/crs/OGC/1.3/CRS84
-  - http://www.opengis.net/def/crs/EPSG/0/3857
+  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84">http://www.opengis.net/def/crs/OGC/1.3/CRS84</a>
+  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857">http://www.opengis.net/def/crs/EPSG/0/3857</a>
 
 Egenskaper
 
-| **Navn:** | **geometry** |
-| --- | --- |
-| Definisjon: | Elementtype: feature |
-| Type: | geometry-any |
-| OGC-rolle: | primary-geometry |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>geometry</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>Elementtype: feature</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>geometry-any</td>
+    </tr>
+    <tr>
+      <th scope="row">OGC-rolle:</th>
+      <td>primary-geometry</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **objid** |
-| --- | --- |
-| Definisjon: | objid |
-| Multiplisitet: | 0..1 |
-| Type: | integer |
-| OGC-rolle: | id |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>objid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>objid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>integer</td>
+    </tr>
+    <tr>
+      <th scope="row">OGC-rolle:</th>
+      <td>id</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **objtype** |
-| --- | --- |
-| Definisjon: | objtype |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>objtype</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>objtype</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **lokalid** |
-| --- | --- |
-| Definisjon: | lokalid |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>lokalid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>lokalid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **navnerom** |
-| --- | --- |
-| Definisjon: | navnerom |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>navnerom</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>navnerom</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **versjonid** |
-| --- | --- |
-| Definisjon: | versjonid |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>versjonid</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>versjonid</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **oppdateringsdato** |
-| --- | --- |
-| Definisjon: | oppdateringsdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>oppdateringsdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>oppdateringsdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **gyldigfra** |
-| --- | --- |
-| Definisjon: | gyldigfra |
-| Multiplisitet: | 0..1 |
-| Type: | date (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>gyldigfra</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>gyldigfra</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **gyldigtil** |
-| --- | --- |
-| Definisjon: | gyldigtil |
-| Multiplisitet: | 0..1 |
-| Type: | date (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>gyldigtil</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>gyldigtil</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **datafangstdato** |
-| --- | --- |
-| Definisjon: | datafangstdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>datafangstdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>datafangstdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **malemetode** |
-| --- | --- |
-| Definisjon: | malemetode |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>malemetode</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>malemetode</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **noyaktighet** |
-| --- | --- |
-| Definisjon: | noyaktighet |
-| Multiplisitet: | 0..1 |
-| Type: | integer |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>noyaktighet</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>noyaktighet</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>integer</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **datauttaksdato** |
-| --- | --- |
-| Definisjon: | datauttaksdato |
-| Multiplisitet: | 0..1 |
-| Type: | date-time (string) |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>datauttaksdato</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>datauttaksdato</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>date-time (string)</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **opphav** |
-| --- | --- |
-| Definisjon: | opphav |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>opphav</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>opphav</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Navn:** | **avgrensningstype** |
-| --- | --- |
-| Definisjon: | avgrensningstype |
-| Multiplisitet: | 0..1 |
-| Type: | string |
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th scope="row">Navn:</th>
+      <td><strong>avgrensningstype</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Definisjon:</th>
+      <td>avgrensningstype</td>
+    </tr>
+    <tr>
+      <th scope="row">Multiplisitet:</th>
+      <td>0..1</td>
+    </tr>
+    <tr>
+      <th scope="row">Type:</th>
+      <td>string</td>
+    </tr>
+  </tbody>
+</table>
