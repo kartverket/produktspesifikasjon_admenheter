@@ -99,7 +99,7 @@ Framstille den offisielle kommuneinndelingen.
   - **tilgangsbegrensninger**: Åpne data
   - **bruksbegrensninger**: Lisens
   - **lisens**: Creative Commons BY 4.0 (CC BY 4.0)
-  - **lisenslenke**: https://creativecommons.org/licenses/by/4.0/
+  - **lisenslenke**: <https://creativecommons.org/licenses/by/4.0/>
   - **sikkerhetsbegrensninger**: Ugradert
 
 ## Innhold og struktur
@@ -118,8 +118,8 @@ Geometri:
 - itemType: feature
 - type: geometry-any
 - crs:
-  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84">http://www.opengis.net/def/crs/OGC/1.3/CRS84</a>
-  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857">http://www.opengis.net/def/crs/EPSG/0/3857</a>
+  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84"><http://www.opengis.net/def/crs/OGC/1.3/CRS84></a>
+  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857"><http://www.opengis.net/def/crs/EPSG/0/3857></a>
 
 Egenskaper
 
@@ -510,8 +510,8 @@ Geometri:
 - itemType: feature
 - type: geometry-any
 - crs:
-  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84">http://www.opengis.net/def/crs/OGC/1.3/CRS84</a>
-  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857">http://www.opengis.net/def/crs/EPSG/0/3857</a>
+  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84"><http://www.opengis.net/def/crs/OGC/1.3/CRS84></a>
+  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857"><http://www.opengis.net/def/crs/EPSG/0/3857></a>
 
 Egenskaper
 
@@ -902,8 +902,8 @@ Geometri:
 - itemType: feature
 - type: geometry-any
 - crs:
-  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84">http://www.opengis.net/def/crs/OGC/1.3/CRS84</a>
-  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857">http://www.opengis.net/def/crs/EPSG/0/3857</a>
+  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84"><http://www.opengis.net/def/crs/OGC/1.3/CRS84></a>
+  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857"><http://www.opengis.net/def/crs/EPSG/0/3857></a>
 
 Egenskaper
 
@@ -1294,8 +1294,8 @@ Geometri:
 - itemType: feature
 - type: geometry-any
 - crs:
-  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84">http://www.opengis.net/def/crs/OGC/1.3/CRS84</a>
-  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857">http://www.opengis.net/def/crs/EPSG/0/3857</a>
+  - <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84"><http://www.opengis.net/def/crs/OGC/1.3/CRS84></a>
+  - <a href="http://www.opengis.net/def/crs/EPSG/0/3857"><http://www.opengis.net/def/crs/EPSG/0/3857></a>
 
 Egenskaper
 
@@ -1729,24 +1729,24 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 
 ## Presentasjon
 
-- **Tegnforklaring**: https://register.geonorge.no/tegneregler/administrative-enheter-norge
+- **Tegnforklaring**: <https://register.geonorge.no/tegneregler/administrative-enheter-norge>
 
 ## Leveranse
 
 - **distribusjoner**:
   - **format**: - **format**: GEONORGE:DOWNLOAD
     - **tilgang**:
-      - **lenke**: https://nedlasting.geonorge.no/api/capabilities/
+      - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
       - **protokoll**: GEONORGE:DOWNLOAD
   - **tittel**: Geonorge nedlastning
     - **format**: - **format**: Geonorge nedlastning
     - **tilgang**:
-      - **lenke**: https://nedlasting.geonorge.no/api/capabilities/
+      - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
       - **protokoll**: GEONORGE:DOWNLOAD
   - **tittel**: Administrative enheter WMS
     - **format**: - **format**: png
     - **tilgang**:
-      - **lenke**: https://wms.geonorge.no/skwms1/wms.adm_enheter2?service=wms&request=GetCapabilities
+      - **lenke**: <https://wms.geonorge.no/skwms1/wms.adm_enheter2?service=wms&request=GetCapabilities>
       - **protokoll**: WMS-tjeneste
       - **lisens**: Åpne data
     - **notater**: Tjeneste
@@ -1764,4 +1764,4 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 - **identifikatorer**:
   - **myndighet**: geonorge
     - **kode**: 041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
-- **metadatalenke**: https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
+- **metadatalenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b>
