@@ -91,10 +91,12 @@ Framstille den offisielle kommuneinndelingen.
 ## Spesifikasjonsomfang
 
 **Nivå**: dataset
+
 **utstrekning**:
 
 - **romlig**: - **romlig omfang**: National
 - **tidsmessig**: - **intervall**: - 2006-07-01, 2025-07-04
+
 **juridiske begrensninger**:
 
 - **Bruksbegrensninger**: Ingen begrensninger på bruk er oppgitt. Se forøvrig lisens.
@@ -1696,6 +1698,7 @@ Egenskaper
   - **navn**: EUREF 89 Geografisk (ETRS 89) 2d
 - **kode**: EPSG:25832
   - **navn**: EUREF89 UTM sone 32, 2d
+
 **Romlig representasjonstype**: Vektor
 
 ## Kvalitet
@@ -1730,12 +1733,15 @@ Egenskaper
 ## Datavedlikehold
 
 **Vedlikeholdsfrekvens**: Etter behov
+
 **Vedlikeholdsnotat**: Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Presentasjon av statistikk og analyser. Produksjon av kart og avledede produkter. Saksbehandling på lokalt og regionalt plan etter plan- og bygningsloven.
+
 **Status**: Kontinuerlig oppdatert
 
 ## Presentasjon
 
-**Tegnforklaring**: <https://register.geonorge.no/tegneregler/administrative-enheter-norge>
+**Tegnforklaring**:
+<https://register.geonorge.no/tegneregler/administrative-enheter-norge>
 
 ## Leveranse
 
@@ -1761,16 +1767,23 @@ Egenskaper
 ## Metadata
 
 **Standard**: ISO19115
+
 **Standardversjon**: 2003
+
 **Metadatadato**: 2025-11-14
+
 **språk**: nor
+
 **Kontaktpunkt**:
 
 - **organisasjon**: Kartverket
 - **epost**: post@kartverket.no
 - **rolle**: pointOfContact
+
 **Identifikatorer**:
 
-- **Myndighet**: geonorge
+- **Utsteder**: geonorge
   - **kode**: 041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
-**Metadatalenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b>
+
+**Metadatalenke**:
+<https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b>
