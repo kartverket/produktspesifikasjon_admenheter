@@ -92,9 +92,11 @@ Framstille den offisielle kommuneinndelingen.
 
 **Nivå**: dataset
 **utstrekning**:
+
 - **romlig**: - **romlig omfang**: National
 - **tidsmessig**: - **intervall**: - 2006-07-01, 2025-07-04
 **juridiske begrensninger**:
+
 - **Bruksbegrensninger**: Ingen begrensninger på bruk er oppgitt. Se forøvrig lisens.
 - **tilgangsbegrensninger**: Åpne data
 - **bruksbegrensninger**: Lisens
@@ -1681,6 +1683,7 @@ Egenskaper
 ## Referansesystem
 
 **Romlige referansesystemer**:
+
 - **kode**: EPSG:25832
   - **navn**: EUREF89 UTM sone 32, 2d
 - **kode**: EPSG:25833
@@ -1737,6 +1740,7 @@ Egenskaper
 ## Leveranse
 
 **Distribusjoner**:
+
 - **format**: - **format**: GEONORGE:DOWNLOAD
   - **tilgang**:
     - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
@@ -1761,10 +1765,12 @@ Egenskaper
 **Metadatadato**: 2025-11-14
 **språk**: nor
 **Kontaktpunkt**:
+
 - **organisasjon**: Kartverket
 - **epost**: post@kartverket.no
 - **rolle**: pointOfContact
 **Identifikatorer**:
+
 - **Myndighet**: geonorge
   - **kode**: 041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
 **Metadatalenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b>
