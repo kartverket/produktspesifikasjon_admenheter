@@ -90,12 +90,12 @@ Framstille den offisielle kommuneinndelingen.
 
 ## Spesifikasjonsomfang
 
-**nivå**: dataset
+**Nivå**: dataset
 **utstrekning**:
 - **romlig**: - **romlig omfang**: National
 - **tidsmessig**: - **intervall**: - 2006-07-01, 2025-07-04
 **juridiske begrensninger**:
-- **bruksbegrensninger**: Ingen begrensninger på bruk er oppgitt. Se forøvrig lisens.
+- **Bruksbegrensninger**: Ingen begrensninger på bruk er oppgitt. Se forøvrig lisens.
 - **tilgangsbegrensninger**: Åpne data
 - **bruksbegrensninger**: Lisens
 - **lisens**: Creative Commons BY 4.0 (CC BY 4.0)
@@ -104,7 +104,7 @@ Framstille den offisielle kommuneinndelingen.
 
 ## Innhold og struktur
 
-**bruk**: Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Presentasjon av statistikk og analyser. Produksjon av kart og avledede produkter. Saksbehandling på lokalt og regionalt plan etter plan- og bygningsloven.
+**Bruk**: Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Presentasjon av statistikk og analyser. Produksjon av kart og avledede produkter. Saksbehandling på lokalt og regionalt plan etter plan- og bygningsloven.
 
 ### Datamodell
 
@@ -1680,7 +1680,7 @@ Egenskaper
 
 ## Referansesystem
 
-**romlige referansesystemer**:
+**Romlige referansesystemer**:
 - **kode**: EPSG:25832
   - **navn**: EUREF89 UTM sone 32, 2d
 - **kode**: EPSG:25833
@@ -1693,30 +1693,32 @@ Egenskaper
   - **navn**: EUREF 89 Geografisk (ETRS 89) 2d
 - **kode**: EPSG:25832
   - **navn**: EUREF89 UTM sone 32, 2d
-**romlig representasjonstype**: Vektor
+**Romlig representasjonstype**: Vektor
 
 ## Kvalitet
 
-**nivå**: dataset
+**Nivå**: dataset
+
 - **navn**: COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services
-  - **måleparameter**: Dataene er i henhold til produktspesifikasjonen
+  - **Måleparameter**: Dataene er i henhold til produktspesifikasjonen
 - **navn**: SOSI produktspesifikasjon: Administrative enheter Norge
-  - **måleparameter**: Dataene er i henhold til produktspesifikasjonen
+  - **Måleparameter**: Dataene er i henhold til produktspesifikasjonen
 - **navn**: Sosi applikasjonsskjema
-  - **måleparameter**: SOSI-filer er i henhold til applikasjonsskjema
+  - **Måleparameter**: SOSI-filer er i henhold til applikasjonsskjema
 - **navn**: Sosi applikasjonsskjema
-  - **måleparameter**: GML-filer er i henhold til applikasjonsskjema
+  - **Måleparameter**: GML-filer er i henhold til applikasjonsskjema
 - **navn**: Prosentvis dekning i forhold til datasettets utstrekning
-  - **måleparameter**: Datasettets faktiske kartlagte areal i forhold til datasettets spesifiserte utstrekning
+  - **Måleparameter**: Datasettets faktiske kartlagte areal i forhold til datasettets spesifiserte utstrekning
   - **resultat**: 100
 - **navn**: Prosentvis oppfyllelse av FAIR-prinsipper
-  - **måleparameter**: Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)
+  - **Måleparameter**: Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)
   - **resultat**: 96
 - **navn**: FAIR
   - **resultat**: Prosentvis oppfyllelse av FAIR-prinsipper: 96%
 - **navn**: Coverage
   - **resultat**: Prosentvis dekning i forhold til datasettets utstrekning: 100%
-**beskrivelse**: Trenger du hjelp til å laste ned og ta i bruk Kartverkets data og tjenester? På kartverket.no finner du tips og veiledning.
+
+**Beskrivelse**: Trenger du hjelp til å laste ned og ta i bruk Kartverkets data og tjenester? På kartverket.no finner du tips og veiledning.
 
 ## Datafangst
 
@@ -1724,8 +1726,9 @@ Egenskaper
 
 ## Datavedlikehold
 
-Etter behov
-Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Presentasjon av statistikk og analyser. Produksjon av kart og avledede produkter. Saksbehandling på lokalt og regionalt plan etter plan- og bygningsloven.
+**Vedlikeholdsfrekvens**: Etter behov
+**Vedlikeholdsnotat**: Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Presentasjon av statistikk og analyser. Produksjon av kart og avledede produkter. Saksbehandling på lokalt og regionalt plan etter plan- og bygningsloven.
+**Status**: Kontinuerlig oppdatert
 
 ## Presentasjon
 
@@ -1733,7 +1736,7 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 
 ## Leveranse
 
-**distribusjoner**:
+**Distribusjoner**:
 - **format**: - **format**: GEONORGE:DOWNLOAD
   - **tilgang**:
     - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
@@ -1749,19 +1752,19 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
     - **lenke**: <https://wms.geonorge.no/skwms1/wms.adm_enheter2?service=wms&request=GetCapabilities>
     - **protokoll**: WMS-tjeneste
     - **lisens**: Åpne data
-  - **notater**: Tjeneste
+  - **Notater**: Tjeneste
 
 ## Metadata
 
-**standard**: ISO19115
-**standardversjon**: 2003
-**metadatadato**: 2025-11-13
+**Standard**: ISO19115
+**Standardversjon**: 2003
+**Metadatadato**: 2025-11-14
 **språk**: nor
-**kontaktpunkt**:
+**Kontaktpunkt**:
 - **organisasjon**: Kartverket
 - **epost**: post@kartverket.no
 - **rolle**: pointOfContact
-**identifikatorer**:
-- **myndighet**: geonorge
+**Identifikatorer**:
+- **Myndighet**: geonorge
   - **kode**: 041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
-**metadatalenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b>
+**Metadatalenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b>
