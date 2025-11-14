@@ -90,21 +90,21 @@ Framstille den offisielle kommuneinndelingen.
 
 ## Spesifikasjonsomfang
 
-- **nivå**: dataset
-- **utstrekning**:
-  - **romlig**: - **romlig omfang**: National
-  - **tidsmessig**: - **intervall**: - 2006-07-01, 2025-07-04
-- **juridiske begrensninger**:
-  - **bruksbegrensninger**: Ingen begrensninger på bruk er oppgitt. Se forøvrig lisens.
-  - **tilgangsbegrensninger**: Åpne data
-  - **bruksbegrensninger**: Lisens
-  - **lisens**: Creative Commons BY 4.0 (CC BY 4.0)
-  - **lisenslenke**: <https://creativecommons.org/licenses/by/4.0/>
-  - **sikkerhetsbegrensninger**: Ugradert
+**nivå**: dataset
+**utstrekning**:
+- **romlig**: - **romlig omfang**: National
+- **tidsmessig**: - **intervall**: - 2006-07-01, 2025-07-04
+**juridiske begrensninger**:
+- **bruksbegrensninger**: Ingen begrensninger på bruk er oppgitt. Se forøvrig lisens.
+- **tilgangsbegrensninger**: Åpne data
+- **bruksbegrensninger**: Lisens
+- **lisens**: Creative Commons BY 4.0 (CC BY 4.0)
+- **lisenslenke**: <https://creativecommons.org/licenses/by/4.0/>
+- **sikkerhetsbegrensninger**: Ugradert
 
 ## Innhold og struktur
 
-- **bruk**: Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Presentasjon av statistikk og analyser. Produksjon av kart og avledede produkter. Saksbehandling på lokalt og regionalt plan etter plan- og bygningsloven.
+**bruk**: Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Presentasjon av statistikk og analyser. Produksjon av kart og avledede produkter. Saksbehandling på lokalt og regionalt plan etter plan- og bygningsloven.
 
 ### Datamodell
 
@@ -1680,24 +1680,24 @@ Egenskaper
 
 ## Referansesystem
 
-- **romlige referansesystemer**:
-  - **kode**: EPSG:25832
-    - **navn**: EUREF89 UTM sone 32, 2d
-  - **kode**: EPSG:25833
-    - **navn**: EUREF89 UTM sone 33, 2d
-  - **kode**: EPSG:25835
-    - **navn**: EUREF89 UTM sone 35, 2d
-  - **kode**: EPSG:3035
-    - **navn**: EUREF89 / ETRS89-LAEA Europe
-  - **kode**: EPSG:4258
-    - **navn**: EUREF 89 Geografisk (ETRS 89) 2d
-  - **kode**: EPSG:25832
-    - **navn**: EUREF89 UTM sone 32, 2d
-- **romlig representasjonstype**: Vektor
+**romlige referansesystemer**:
+- **kode**: EPSG:25832
+  - **navn**: EUREF89 UTM sone 32, 2d
+- **kode**: EPSG:25833
+  - **navn**: EUREF89 UTM sone 33, 2d
+- **kode**: EPSG:25835
+  - **navn**: EUREF89 UTM sone 35, 2d
+- **kode**: EPSG:3035
+  - **navn**: EUREF89 / ETRS89-LAEA Europe
+- **kode**: EPSG:4258
+  - **navn**: EUREF 89 Geografisk (ETRS 89) 2d
+- **kode**: EPSG:25832
+  - **navn**: EUREF89 UTM sone 32, 2d
+**romlig representasjonstype**: Vektor
 
 ## Kvalitet
 
-- **nivå**: dataset
+**nivå**: dataset
 - **navn**: COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services
   - **måleparameter**: Dataene er i henhold til produktspesifikasjonen
 - **navn**: SOSI produktspesifikasjon: Administrative enheter Norge
@@ -1716,7 +1716,7 @@ Egenskaper
   - **resultat**: Prosentvis oppfyllelse av FAIR-prinsipper: 96%
 - **navn**: Coverage
   - **resultat**: Prosentvis dekning i forhold til datasettets utstrekning: 100%
-- **beskrivelse**: Trenger du hjelp til å laste ned og ta i bruk Kartverkets data og tjenester? På kartverket.no finner du tips og veiledning.
+**beskrivelse**: Trenger du hjelp til å laste ned og ta i bruk Kartverkets data og tjenester? På kartverket.no finner du tips og veiledning.
 
 ## Datafangst
 
@@ -1729,39 +1729,39 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 
 ## Presentasjon
 
-- **Tegnforklaring**: <https://register.geonorge.no/tegneregler/administrative-enheter-norge>
+**Tegnforklaring**: <https://register.geonorge.no/tegneregler/administrative-enheter-norge>
 
 ## Leveranse
 
-- **distribusjoner**:
-  - **format**: - **format**: GEONORGE:DOWNLOAD
-    - **tilgang**:
-      - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
-      - **protokoll**: GEONORGE:DOWNLOAD
-  - **tittel**: Geonorge nedlastning
-    - **format**: - **format**: Geonorge nedlastning
-    - **tilgang**:
-      - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
-      - **protokoll**: GEONORGE:DOWNLOAD
-  - **tittel**: Administrative enheter WMS
-    - **format**: - **format**: png
-    - **tilgang**:
-      - **lenke**: <https://wms.geonorge.no/skwms1/wms.adm_enheter2?service=wms&request=GetCapabilities>
-      - **protokoll**: WMS-tjeneste
-      - **lisens**: Åpne data
-    - **notater**: Tjeneste
+**distribusjoner**:
+- **format**: - **format**: GEONORGE:DOWNLOAD
+  - **tilgang**:
+    - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
+    - **protokoll**: GEONORGE:DOWNLOAD
+- **tittel**: Geonorge nedlastning
+  - **format**: - **format**: Geonorge nedlastning
+  - **tilgang**:
+    - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
+    - **protokoll**: GEONORGE:DOWNLOAD
+- **tittel**: Administrative enheter WMS
+  - **format**: - **format**: png
+  - **tilgang**:
+    - **lenke**: <https://wms.geonorge.no/skwms1/wms.adm_enheter2?service=wms&request=GetCapabilities>
+    - **protokoll**: WMS-tjeneste
+    - **lisens**: Åpne data
+  - **notater**: Tjeneste
 
 ## Metadata
 
-- **standard**: ISO19115
-- **standardversjon**: 2003
-- **metadatadato**: 2025-11-13
-- **språk**: nor
-- **kontaktpunkt**:
-  - **organisasjon**: Kartverket
-  - **epost**: post@kartverket.no
-  - **rolle**: pointOfContact
-- **identifikatorer**:
-  - **myndighet**: geonorge
-    - **kode**: 041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
-- **metadatalenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b>
+**standard**: ISO19115
+**standardversjon**: 2003
+**metadatadato**: 2025-11-13
+**språk**: nor
+**kontaktpunkt**:
+- **organisasjon**: Kartverket
+- **epost**: post@kartverket.no
+- **rolle**: pointOfContact
+**identifikatorer**:
+- **myndighet**: geonorge
+  - **kode**: 041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
+**metadatalenke**: <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b>
