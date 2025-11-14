@@ -92,19 +92,19 @@ Framstille den offisielle kommuneinndelingen.
 
 **Nivå**: dataset
 
-**utstrekning**:
+**Utstrekning**:
 
 - **romlig**: - **romlig omfang**: National
 - **tidsmessig**: - **intervall**: - 2006-07-01, 2025-07-04
 
-**juridiske begrensninger**:
+**Juridiske begrensninger**:
 
 - **Bruksbegrensninger**: Ingen begrensninger på bruk er oppgitt. Se forøvrig lisens.
-- **tilgangsbegrensninger**: Åpne data
-- **bruksbegrensninger**: Lisens
-- **lisens**: Creative Commons BY 4.0 (CC BY 4.0)
-- **lisenslenke**: <https://creativecommons.org/licenses/by/4.0/>
-- **sikkerhetsbegrensninger**: Ugradert
+- **Tilgangsbegrensninger**: Åpne data
+- **Bruksbegrensninger**: Lisens
+- **Lisens**: Creative Commons BY 4.0 (CC BY 4.0)
+- **Lisenslenke**: <https://creativecommons.org/licenses/by/4.0/>
+- **Sikkerhetsbegrensninger**: Ugradert
 
 ## Innhold og struktur
 
@@ -1687,17 +1687,22 @@ Egenskaper
 **Romlige referansesystemer**:
 
 - **kode**: EPSG:25832
-  - **navn**: EUREF89 UTM sone 32, 2d
+  **navn**: EUREF89 UTM sone 32, 2d
+
 - **kode**: EPSG:25833
-  - **navn**: EUREF89 UTM sone 33, 2d
+  **navn**: EUREF89 UTM sone 33, 2d
+
 - **kode**: EPSG:25835
-  - **navn**: EUREF89 UTM sone 35, 2d
+  **navn**: EUREF89 UTM sone 35, 2d
+
 - **kode**: EPSG:3035
-  - **navn**: EUREF89 / ETRS89-LAEA Europe
+  **navn**: EUREF89 / ETRS89-LAEA Europe
+
 - **kode**: EPSG:4258
-  - **navn**: EUREF 89 Geografisk (ETRS 89) 2d
+  **navn**: EUREF 89 Geografisk (ETRS 89) 2d
+
 - **kode**: EPSG:25832
-  - **navn**: EUREF89 UTM sone 32, 2d
+  **navn**: EUREF89 UTM sone 32, 2d
 
 **Romlig representasjonstype**: Vektor
 
@@ -1706,23 +1711,30 @@ Egenskaper
 **Nivå**: dataset
 
 - **navn**: COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services
-  - **Måleparameter**: Dataene er i henhold til produktspesifikasjonen
+  **Måleparameter**: Dataene er i henhold til produktspesifikasjonen
+
 - **navn**: SOSI produktspesifikasjon: Administrative enheter Norge
-  - **Måleparameter**: Dataene er i henhold til produktspesifikasjonen
+  **Måleparameter**: Dataene er i henhold til produktspesifikasjonen
+
 - **navn**: Sosi applikasjonsskjema
-  - **Måleparameter**: SOSI-filer er i henhold til applikasjonsskjema
+  **Måleparameter**: SOSI-filer er i henhold til applikasjonsskjema
+
 - **navn**: Sosi applikasjonsskjema
-  - **Måleparameter**: GML-filer er i henhold til applikasjonsskjema
+  **Måleparameter**: GML-filer er i henhold til applikasjonsskjema
+
 - **navn**: Prosentvis dekning i forhold til datasettets utstrekning
-  - **Måleparameter**: Datasettets faktiske kartlagte areal i forhold til datasettets spesifiserte utstrekning
-  - **resultat**: 100
+  **Måleparameter**: Datasettets faktiske kartlagte areal i forhold til datasettets spesifiserte utstrekning
+  **Resultat**: 100
+
 - **navn**: Prosentvis oppfyllelse av FAIR-prinsipper
-  - **Måleparameter**: Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)
-  - **resultat**: 96
+  **Måleparameter**: Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)
+  **Resultat**: 96
+
 - **navn**: FAIR
-  - **resultat**: Prosentvis oppfyllelse av FAIR-prinsipper: 96%
+  **Resultat**: Prosentvis oppfyllelse av FAIR-prinsipper: 96%
+
 - **navn**: Coverage
-  - **resultat**: Prosentvis dekning i forhold til datasettets utstrekning: 100%
+  **Resultat**: Prosentvis dekning i forhold til datasettets utstrekning: 100%
 
 **Beskrivelse**: Trenger du hjelp til å laste ned og ta i bruk Kartverkets data og tjenester? På kartverket.no finner du tips og veiledning.
 
@@ -1748,21 +1760,26 @@ Egenskaper
 **Distribusjoner**:
 
 - **format**: - **format**: GEONORGE:DOWNLOAD
-  - **tilgang**:
-    - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
-    - **protokoll**: GEONORGE:DOWNLOAD
+  **tilgang**:
+
+  - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
+  - **protokoll**: GEONORGE:DOWNLOAD
+
 - **tittel**: Geonorge nedlastning
-  - **format**: - **format**: Geonorge nedlastning
-  - **tilgang**:
-    - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
-    - **protokoll**: GEONORGE:DOWNLOAD
+  **format**: - **format**: Geonorge nedlastning
+  **tilgang**:
+
+  - **lenke**: <https://nedlasting.geonorge.no/api/capabilities/>
+  - **protokoll**: GEONORGE:DOWNLOAD
+
 - **tittel**: Administrative enheter WMS
-  - **format**: - **format**: png
-  - **tilgang**:
-    - **lenke**: <https://wms.geonorge.no/skwms1/wms.adm_enheter2?service=wms&request=GetCapabilities>
-    - **protokoll**: WMS-tjeneste
-    - **lisens**: Åpne data
-  - **Notater**: Tjeneste
+  **format**: - **format**: png
+  **tilgang**:
+
+  - **lenke**: <https://wms.geonorge.no/skwms1/wms.adm_enheter2?service=wms&request=GetCapabilities>
+  - **protokoll**: WMS-tjeneste
+  - **Lisens**: Åpne data
+  **Notater**: Tjeneste
 
 ## Metadata
 
@@ -1783,7 +1800,7 @@ Egenskaper
 **Identifikatorer**:
 
 - **Utsteder**: geonorge
-  - **kode**: 041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
+  **kode**: 041f1e6e-bdbc-4091-b48f-8a5990f3cc5b
 
 **Metadatalenke**:
 <https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=041f1e6e-bdbc-4091-b48f-8a5990f3cc5b>
