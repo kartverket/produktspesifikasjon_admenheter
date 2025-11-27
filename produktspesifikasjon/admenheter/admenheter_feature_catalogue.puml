@@ -22,6 +22,9 @@ package "Objekttyper" {
     + fylkesnummer [0..1] : CharacterString
     + fylkesnavn [0..1] : CharacterString
     + samiskforvaltningsomrade [0..1] : Boolean
+
+    ..Geometri..
+    + geometry [1] : GM_Object
   }
 
   class Fylkesgrenser <<featureType>> {
@@ -39,6 +42,9 @@ package "Objekttyper" {
     + datauttaksdato [0..1] : DateTime
     + opphav [0..1] : CharacterString
     + avgrensningstype [0..1] : CharacterString
+
+    ..Geometri..
+    + geometry [1] : GM_Object
   }
 
   class Kommuner <<featureType>> {
@@ -56,6 +62,9 @@ package "Objekttyper" {
     + kommunenummer [0..1] : CharacterString
     + kommunenavn [0..1] : CharacterString
     + samiskforvaltningsomrade [0..1] : Boolean
+
+    ..Geometri..
+    + geometry [1] : GM_Object
   }
 
   class Kommunegrenser <<featureType>> {
@@ -73,6 +82,9 @@ package "Objekttyper" {
     + datauttaksdato [0..1] : DateTime
     + opphav [0..1] : CharacterString
     + avgrensningstype [0..1] : CharacterString
+
+    ..Geometri..
+    + geometry [1] : GM_Object
   }
 }
 
