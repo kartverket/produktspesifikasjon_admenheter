@@ -60,17 +60,33 @@ jobs:
               "product_slug": "product-slug",
               "updated": "updated",
           }
+          optional_map = {
+              "xmi_url": "xmi-model",
+          }
 
-          missing = [k for k in required_map if not values.get(k)]
+          missing = [
+              k
+              for k in required_map
+              if k != "ogc_feature_api" and not values.get(k)
+          ]
           if missing:
               raise SystemExit(
                   "Missing required keys in config.yml: "
                   + ", ".join(missing)
               )
+          if not values.get("ogc_feature_api") and not values.get("xmi_url"):
+              raise SystemExit(
+                  "Config must include either ogc_feature_api or xmi_url"
+              )
 
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as gh_out:
               for source, dest in required_map.items():
-                  gh_out.write(f"{dest}={values[source]}\n")
+                  if values.get(source):
+                      gh_out.write(f"{dest}={values[source]}\n")
+              for source, dest in optional_map.items():
+                  value = values.get(source)
+                  if value:
+                      gh_out.write(f"{dest}={value}\n")
           PY
 
       - id: prepare
@@ -81,23 +97,39 @@ jobs:
           output-directory: ${{ steps.config.outputs.output-directory }}
           product-slug: ${{ steps.config.outputs.product-slug }}
           updated: ${{ steps.config.outputs.updated }}
+          xmi-model: ${{ steps.config.outputs.xmi-model }}
       
       - name: Render UML to PNG
-        if: steps.prepare.outputs.feature-catalogue-uml != ''
+        if: steps.prepare.outputs.feature-catalogue-uml != '' || steps.prepare.outputs.xmi-feature-catalogue-uml != ''
         run: |
           sudo apt-get update
           sudo apt-get install -y plantuml graphviz
           set -euo pipefail
-          while IFS= read -r file; do
+          files=()
+          if [ -n "${{ steps.prepare.outputs.feature-catalogue-uml }}" ]; then
+            files+=("${{ steps.prepare.outputs.feature-catalogue-uml }}")
+          fi
+          if [ -n "${{ steps.prepare.outputs.xmi-feature-catalogue-uml }}" ]; then
+            files+=("${{ steps.prepare.outputs.xmi-feature-catalogue-uml }}")
+          fi
+          for file in "${files[@]}"; do
             output_dir="$(dirname "$file")"
             plantuml -tpng -output "$PWD/$output_dir" "$file"
-          done < <(git ls-files '*.puml')
+          done
 
       - name: Derive PNG path
         if: steps.prepare.outputs.feature-catalogue-uml != ''
         id: feature-png
         run: |
           png="${{ steps.prepare.outputs.feature-catalogue-uml }}"
+          png="${png%.puml}.png"
+          echo "path=$png" >> "$GITHUB_OUTPUT"
+
+      - name: Derive XMI PNG path
+        if: steps.prepare.outputs.xmi-feature-catalogue-uml != ''
+        id: xmi-feature-png
+        run: |
+          png="${{ steps.prepare.outputs.xmi-feature-catalogue-uml }}"
           png="${png%.puml}.png"
           echo "path=$png" >> "$GITHUB_OUTPUT"
 
@@ -109,6 +141,9 @@ jobs:
           feature-catalogue-markdown: ${{ steps.prepare.outputs.feature-catalogue-markdown }}
           feature-catalogue-uml: ${{ steps.prepare.outputs.feature-catalogue-uml }}
           feature-catalogue-png: ${{ steps.feature-png.outputs.path }}
+          xmi-feature-catalogue-markdown: ${{ steps.prepare.outputs.xmi-feature-catalogue-markdown }}
+          xmi-feature-catalogue-uml: ${{ steps.prepare.outputs.xmi-feature-catalogue-uml }}
+          xmi-feature-catalogue-png: ${{ steps.xmi-feature-png.outputs.path }}
           updated: ${{ steps.config.outputs.updated }}
       - name: Inspect generated files
         run: |
