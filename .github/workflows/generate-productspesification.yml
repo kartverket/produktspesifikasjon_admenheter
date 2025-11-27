@@ -113,8 +113,11 @@ jobs:
             files+=("${{ steps.prepare.outputs.xmi-feature-catalogue-uml }}")
           fi
           for file in "${files[@]}"; do
+            if [ "${file:0:1}" != "/" ]; then
+              file="$PWD/$file"
+            fi
             output_dir="$(dirname "$file")"
-            plantuml -tpng -output "$PWD/$output_dir" "$file"
+            plantuml -tpng -output "$output_dir" "$file"
           done
 
       - name: Derive PNG path
